@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* HEADER */
+.banner {
+    background-color: #630000;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-logo {
+    background-color: #fff;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+.school-name {
+    color: #eeebdd;
+    font-family: 'Anton', sans-serif;
+}
+
+/* MAIN */
+.main-section {
+    background-image: url("https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    width: 100%;
+    height: 100vh;
+    border: solid 5px #630000;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(69, 74, 146, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-title {
+    font-size: 4.5rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.foot {
+    color: #fff;
+}
+
+/* PROFILE */
+.profile {
+    background-color: #c64756;
+    margin: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 8px;
+}
+
+.sub-profile {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture {
+    border-radius: 50%;
+    /* margin: 3px; */
+}
+
+.title {
+    color: #fff;   
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+    border: solid 2px;
+    border-radius: 50%;
+}
+
+/* example */
+.body {
+    background-color: aquamarine;
+    width: 100%;
+    padding: 10px;
+}
+
+.one {
+    background-color: beige;
+    height: 8rem;
+    border: solid chartreuse;
+    border-radius: 5rem;
+    margin: 0.3rem;
+}
