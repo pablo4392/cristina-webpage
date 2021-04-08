@@ -196,7 +196,7 @@
 }
 
 img {
-    height: 8rem;
+    height: 10rem;
 }
 
 .description {
@@ -213,7 +213,7 @@ img {
 }
 
 .support {
-    height: 8rem;
+    height: 10rem;
     background-color: #28527a;
     display: flex;
     justify-content: center;
