@@ -1,0 +1,89 @@
+/* WEBSITES */
+.websites {
+    margin-bottom: 3rem;
+    background-color: #630000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.title-box {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.card-style {
+    margin-bottom: 2rem;
+}
+
+.title-card {
+    margin: 0.8rem 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.nearpod {
+    height: 12rem;
+    background-color: #8fd6e196;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nearpod-image {
+    height: 58px;
+    width: 210px;
+}
+
+.forms {
+    height: 12rem;
+    background-color: #8b53fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    background-color: #fff;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6e43b6;
+}
+
+.icon {
+    font-size: 80px;
+}
+
+.support {
+    height: 12rem;
+    background-color: #28527a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8ac4d0;
+    font-size: 120px;
+}
+
+.description {
+    text-align: justify;
+    margin-top: 10px;
+    padding: 0 12px;
+    height: 10rem;
+    font-family: 'Lexend', sans-serif;
+}
+
+.button {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}

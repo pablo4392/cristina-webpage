@@ -1,0 +1,78 @@
+/* PROFILE */
+.profile {
+    background-color: #c64756;
+    margin: 35vh;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 8px;
+}
+
+.sub-profile {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.picture-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    border-radius: 50%;
+    height: 218px;
+    width: 218px;
+}
+
+.title {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Averia Serif Libre', cursive;
+}
+
+.text {
+    margin: 10px 8px;
+    font-size: 16px;
+    font-family: 'Kiwi Maru', serif;
+    text-align: justify;
+    color: #fff;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.icons {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff ;
+    border: solid 2px;
+    border-radius: 50%;
+}
+
+.correo {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.whatsapp {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+}
