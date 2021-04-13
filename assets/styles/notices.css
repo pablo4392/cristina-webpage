@@ -4,8 +4,28 @@
     border-radius: 20px;
 }
 
-.title-notices {
+.title-box-notices {
     margin: 1rem 0;
-    font-size: 30px;
+    color: #630000;
+    font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title-notices {
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+.date {
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.text-notice {
+    margin: 0;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }

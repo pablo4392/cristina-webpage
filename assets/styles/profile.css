@@ -54,7 +54,7 @@
 .icons {
     height: 30px;
     width: 30px;
-    margin-right: 8px;
+    margin: 0px 8px;
     display: flex;
     justify-content: center;
     align-items: center;

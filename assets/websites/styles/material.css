@@ -1,0 +1,31 @@
+.body {
+    background-color: #630000;
+}
+
+.column {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    margin: 5rem 0;
+    text-align: center;
+    color: #f8f5f1;
+}
+
+.icon {
+    font-size: 150px;
+}
+
+.principal-title {
+    margin-top: 2rem;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.button {
+    background-color: beige;
+}

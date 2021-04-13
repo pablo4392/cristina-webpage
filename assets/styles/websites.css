@@ -29,7 +29,7 @@
 
 .nearpod {
     height: 12rem;
-    background-color: #8fd6e196;
+    background-color: #1f78c5;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,23 +40,17 @@
     width: 210px;
 }
 
-.forms {
-    height: 12rem;
-    background-color: #8b53fb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.google-meet {
+    height: 130px;
+    width: 130px;
 }
 
-.circle {
-    background-color: #fff;
-    width: 8em;
-    height: 8em;
-    border-radius: 50%;
+.meet {
+    height: 12rem;
+    background-color: #5aa897;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #6e43b6;
 }
 
 .icon {
@@ -65,11 +59,11 @@
 
 .support {
     height: 12rem;
-    background-color: #28527a;
+    background-color: #ffb037;
+    color: #ffe268;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #8ac4d0;
     font-size: 120px;
 }
 
