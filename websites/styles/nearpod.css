@@ -9,6 +9,47 @@
     align-items: center;
 }
 
+.banner {
+    margin: 1rem;
+    height: 150px;
+    border: solid 5px #0d6efd;
+    border-radius: 10px;
+}
+
+.first-grade {
+    background-image: url("https://images.pexels.com/photos/5428012/pexels-photo-5428012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+}
+
+.second-grade {
+    background-image: url("https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+}
+
+.third-grade {
+    background-image: url("https://images.pexels.com/photos/5676744/pexels-photo-5676744.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background-color: rgba(31, 120, 197, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #dddddd;
+    font-size: 30px;
+    font-family: 'Zilla Slab Highlight', cursive;
+    text-align: center;
+}
+
 .nearpod-logo {
     height: 25px; 
     width: 25px;
