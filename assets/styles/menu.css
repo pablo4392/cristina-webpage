@@ -8,20 +8,16 @@
 .nav {
     text-decoration: none;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-around;
 }
 
 .nav:hover {
     background-color: #fff;
 }
 
-.navigation {
-    color: white;
-
-}
-
 .menu-icon {
     margin: 0 10px;
+    color: #fff;
     font-size: 18px;
 }

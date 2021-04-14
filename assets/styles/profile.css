@@ -33,6 +33,11 @@
     font-family: 'Averia Serif Libre', cursive;
 }
 
+.languaje-buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .text {
     margin: 10px 8px;
     font-size: 16px;
