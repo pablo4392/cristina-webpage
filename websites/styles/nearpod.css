@@ -1,0 +1,20 @@
+.body {
+    background-color: #630000;
+}
+
+.column {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nearpod-logo {
+    height: 25px; 
+    width: 25px;
+}
+
+.meet-logo {
+    height: 25px; 
+    width: 25px;
+}

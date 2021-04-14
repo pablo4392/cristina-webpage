@@ -10,22 +10,28 @@
     align-items: center;
 }
 
+.icon {
+    font-size: 180px;
+}
+
 .principal {
-    margin: 5rem 0;
+    margin: 3rem 0;
     text-align: center;
     color: #f8f5f1;
 }
 
-.icon {
-    font-size: 150px;
-}
-
 .principal-title {
     margin-top: 2rem;
-    font-size: 50px;
+    font-size: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
-.button {
-    background-color: beige;
+.nearpod-logo {
+    height: 25px; 
+    width: 25px;
+}
+
+.meet-logo {
+    height: 25px; 
+    width: 25px;
 }
