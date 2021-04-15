@@ -1,7 +1,7 @@
 /* HEADER */
 .banner {
     background-color: #630000;
-    padding: 0.8rem;
+    padding: 0 0.3rem;
     width: 100%;
     height: max-content;
     display: flex;
@@ -43,15 +43,23 @@
     font-weight: bold;
 }
 
-.facebook {
+.facebook-box {
     width: 35px;
     height: 35px;
-    background-color: #146aeb;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end; 
+    background-color: #3b5998;
     margin-left: 1.5rem;
-    border: solid 2px #fff;
-    border-radius: 50%;
+    border-radius: 8px;
     font-size: 18px;
+}
+
+.facebook-icon {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 25px;
+}
+
+.facebook-icon:hover {
+    color: #ffffff;
 }

@@ -1,4 +1,3 @@
-/* PROFILE */
 .profile {
     background-color: #c64756;
     margin: 35vh;
@@ -25,11 +24,36 @@
     width: 218px;
 }
 
-.title {
+.title-profile-box {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.yout-box {
+    margin-right: 8px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.yout-icon {
+    font-size: 23px;
+    color: #ce12125b;
+}
+
+.yout-icon:hover {
+    color: #ce1212;
+}
+
+.profile-title {
     margin: 0;
     color: #fff;
-    text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Averia Serif Libre', cursive;
 }
 
@@ -38,11 +62,15 @@
     justify-content: center;
 }
 
-.text {
+.profile-text {
     margin: 10px 8px;
-    font-size: 16px;
-    font-family: 'Kiwi Maru', serif;
+}
+
+.paragraph {
+    margin-bottom: 5px;
     text-align: justify;
+    font-family: 'Kiwi Maru', serif;
+    font-size: 17px;
     color: #fff;
 }
 
