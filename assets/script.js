@@ -1,3 +1,0 @@
-changeZize = () => {
-    document.getElementById("")
-}
