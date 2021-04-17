@@ -20,6 +20,7 @@
 .navigation {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .navigation:hover {
@@ -53,6 +54,10 @@
     font-family: 'Zen Dots', cursive;
 }
 
+.spanish-button:hover {
+    background-color: #0061a8;
+}
+
 .english-button {
     width: 65px;
     height: 23px;
@@ -62,4 +67,8 @@
     border-radius: 0 5px 5px 0;
     font-size: 10px;
     font-family: 'Zen Dots', cursive;
+}
+
+.english-button:hover {
+    background-color: #0061a8;
 }
