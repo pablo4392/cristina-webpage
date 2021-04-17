@@ -1,6 +1,6 @@
 .sticky-properties {
     background-color: #630000;
-    padding-top: 6px;
+    padding: 6px 0;
 }
 
 .menu {
@@ -11,9 +11,14 @@
 }
 
 .nav {
-    text-decoration: none;
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
     align-items: center;
 }
 
@@ -23,8 +28,38 @@
 }
 
 .menu-icon {
-    margin: 0 12px;
+    margin-right: 5px;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.menu-label {
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.spanish-button {
+    width: 65px;
+    height: 23px;
+    padding: 0;
+    background-color: #fff;
+    border: solid 2px #0061a8;
+    border-radius: 5px 0 0 5px ;
+    font-size: 10px;
+    font-family: 'Zen Dots', cursive;
+}
+
+.english-button {
+    width: 65px;
+    height: 23px;
+    padding: 0;
+    background-color: #fff;
+    border: solid 2px #0061a8;
+    border-radius: 0 5px 5px 0;
+    font-size: 10px;
+    font-family: 'Zen Dots', cursive;
 }

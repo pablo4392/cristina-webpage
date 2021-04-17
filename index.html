@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Averia+Serif+Libre:wght@300&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -34,37 +35,38 @@
             </a>
         </div>
     </div>
-
+    
     <!-- Menu -->
     <div class="sticky-top sticky-properties">
         <div class="menu">
-            <div class="col-sm-4 nav">
-                <a class="navigation" href="#profile"> 
-                    <i class="fas fa-user menu-icon">
-                        Profile
-                    </i>
+            <div class="col-sm-3 nav">
+                <a class="navigation" href="#profile" id="menuProfile"> 
+                    <i class="fas fa-user menu-icon"></i>
+                    <p class="menu-label">Profile</p>
                 </a>
             </div>
-            <div class="col-sm-4 nav">
-                <a class="navigation" href="#notices"> 
-                    <i class="far fa-newspaper menu-icon">
-                        Notices
-                    </i>
+            <div class="col-sm-3 nav">
+                <a class="navigation" href="#notices" id="menuNotices"> 
+                    <i class="far fa-newspaper menu-icon"></i>
+                    <p class="menu-label">Notices</p>
                 </a>
             </div>
-            <div class="col-sm-4 nav">
-                <a class="navigation" href="#websites">             
-                    <i class="fas fa-globe menu-icon">
-                        Websites
-                    </i>
+            <div class="col-sm-3 nav">
+                <a class="navigation" href="#websites" id="menuWebsites">             
+                    <i class="fas fa-globe menu-icon"></i>
+                    <p class="menu-label">Websites</p>
                 </a>
+            </div>
+            <div class="col-sm-3 nav">
+                <button type="button" class="spanish-button" id="spanishButton">Español</button>
+                <button type="button" class="english-button" id="englishButton">English</button>
             </div>
         </div>
     </div>
-
+    
     <!-- Main section -->
     <div class="main-section">
-        <div class="overlay">
+        <div class="overlay" id="welcome">
             <h1 class="principal-title">Welcome to your English class</h1>
         </div>
     </div>
@@ -82,14 +84,10 @@
                             <i class="fab fa-youtube yout-icon"></i>
                         </a>
                     </div>
-                    <h2 class="profile-title">
-                        Hi! I'm Mrs. Cristy
-                    </h2>
-                </div>
-                <div class="languaje-buttons">
-                    <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-outline-light" id="englishButton">English</button>
-                        <button type="button" class="btn btn-outline-light" id="spanishButton">Español</button>
+                    <div id="profileTitle">
+                        <h2 class="profile-title">
+                            Hi! I'm Mrs. Cristy
+                        </h2>
                     </div>
                 </div>
                 <div class="profile-text" id="profileDescription">
@@ -116,10 +114,12 @@
     </div>
 
     <!-- Notices -->
-    <div class="container" id="notices">
+    <div class="container">
         <div class="row">
             <div class="notices">
-                <h4 class="title-box-notices">Notices</h4>
+                <div id="titleNotices">
+                    <h4 class="title-box-notices">Notices</h4>
+                </div>
                 <div>
                     <div class="alert alert-primary" role="alert">
                             <!-- aqui escribe el titulo del aviso -->
@@ -145,8 +145,10 @@
     </div>
 
     <!-- Websites -->
-    <div class="websites" id="websites">
-        <h2 class="title-box">Websites to support</h2>
+    <div class="websites">
+        <div id="websitesTitle">
+            <h2 class="title-box">Websites to support</h2>
+        </div>
         <div class="row">
             <!-- nearpod -->
             <div class="col-sm-12 col-md-4 col-lg-4">
