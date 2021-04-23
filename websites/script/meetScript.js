@@ -3,20 +3,20 @@ const secondGrade = document.getElementById("meetSecondGrade");
 const thirdGrade = document.getElementById("meetThirdGrade");
 
 //FIRST GRADE
-linksFirstGrade = () => {
+const linksFirstGrade = () => {
     firstGrade.innerHTML = `<div class="selector">
                                 <div>
                                     <h3 class="link-title">Choice your group</h3>
                                 </div>
                                 <div class="row">
-                                    <a href="https://meet.google.com/iat-mktu-jkj" class="col-4 link-group"> A </a>                              
-                                    <a href="https://meet.google.com/nkn-oggg-gug" class="col-4 link-group"> B </a>                                                    
+                                    <a href="https://meet.google.com/iat-mktu-jkj" class="col-4 link-group"> A </a>
+                                    <a href="https://meet.google.com/nkn-oggg-gug" class="col-4 link-group"> B </a>
                                     <a href="https://meet.google.com/wse-xgrw-nby" class="col-4 link-group"> C </a>                            
                                 </div>
                             </div>`
 }
 
-firstGradeStyle = () => {
+const firstGradeStyle = () => {
     firstGrade.innerHTML = `<div class="overlay">
                                 <h2 class="title"> First grade </h2>
                                 <h2 class="title"> Primer año </h2>
@@ -24,7 +24,7 @@ firstGradeStyle = () => {
 }
 
 //SECOND GRADE
-linksSecondGrade = () => {
+const linksSecondGrade = () => {
     secondGrade.innerHTML = `<div class="selector">
                                 <div>
                                     <h3 class="link-title">Choice your group</h3>
@@ -37,7 +37,7 @@ linksSecondGrade = () => {
                             </div>`
 }
 
-secondGradeStyle = () => {
+const secondGradeStyle = () => {
     secondGrade.innerHTML = `<div class="overlay">
                                 <h2 class="title"> Second grade </h2>
                                 <h2 class="title"> Segundo año </h2>                    
@@ -45,7 +45,7 @@ secondGradeStyle = () => {
 }
 
 //THIRD GRADE
-linksThirdGrade = () => {
+const linksThirdGrade = () => {
     thirdGrade.innerHTML = `<div class="selector">
                                 <div>
                                     <h3 class="link-title">Choice your group</h3>
@@ -58,7 +58,7 @@ linksThirdGrade = () => {
                             </div>`
 };
 
-thirdGradeStyle = () => {
+const thirdGradeStyle = () => {
     thirdGrade.innerHTML = `<div class="overlay">
                                 <h2 class="title"> Third grade </h2>
                                 <h2 class="title"> Tercer año </h2>
