@@ -1,5 +1,12 @@
+.notices-section {
+    /* height: 100vh; */
+    /* margin: 400px 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .notices {
-    margin: 50vh 0vh;
     border: solid 10px #6e7c7c;
     border-radius: 20px;
 }
