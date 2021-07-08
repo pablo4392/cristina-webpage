@@ -1,4 +1,5 @@
 .profile-section {
+    padding: 20vh 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,7 +7,6 @@
 
 .profile {
     background-color: #c64756;
-    margin: 35vh;
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 5px 5px 8px;
